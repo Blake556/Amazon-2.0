@@ -1,0 +1,372 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+    
+}
+
+
+
+/* Nav Bar */
+
+#nav-section {
+    width: 100%;
+}
+
+
+.main-nav {
+    background-color: #131921;
+    height: 55px;
+    
+}
+
+.title-container {
+   
+ 
+}
+
+.title-header {
+    font-size: 30px;
+    color: white;
+}
+
+.title-img {
+    
+    position: relative;
+    bottom: 25px;
+    right: 5px
+}
+
+.adress {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.location-icon {
+    display: inline-block;
+    position: relative;
+    left: 35px;
+   
+}
+
+.search-container {
+    margin-top: 1.5%;
+}
+
+.search-bar {
+    width: 70%;
+    height: 40px;
+}
+
+.search-icon{
+    background-color: orange;
+    color: black;
+    padding: 11.5px;
+    position: relative;
+    right: 5px;
+    
+}
+
+.sign-in {
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.cart-container {
+    margin-top: 14px;
+    margin-right: 20px;
+    position: relative;
+    float: right;
+}
+
+.cart-icon {
+    color: #fff;
+}
+
+.cart {
+    font-size: 14px;
+    display: inline;
+    position: relative;
+    margin-top: 10px;
+}
+
+.nav {
+    color: #fff;
+}
+
+
+
+/* Sub Nav */
+
+
+.sub-nav-row {
+    background-color:#007185;
+    background-color:  #232F3E;
+    height: 35px;
+   
+}
+
+
+.sub-nav-col {
+    text-align: center;
+    padding-top: 3px;
+}
+
+
+
+a {
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/*  body    */
+
+
+/* 
+#body-main .row {
+    margin: 0px;
+    padding: 0px;
+} */
+
+
+#body-main {
+   
+}
+
+
+
+.carousel-item {
+    background: linear-gradient(to bottom,#c3faec, #c3faec,rgb(235, 235, 235));
+    width: 100%;
+    height: 400px;
+
+}
+
+
+.carousel-description {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.carousel-control-prev, .carousel-control-next {
+    height: 250px;
+}
+
+.content-container {
+    position: relative;
+    bottom: 150px;
+    height: auto;
+    
+}
+
+
+
+
+
+.main-row {
+    justify-content: space-between;
+    margin: 0px 10px;
+    margin-bottom: 25px;
+}
+
+.main-columns {
+    background-color: white;
+    margin: 5px;
+    width: 315px;
+    height: 400px;
+    text-align: center;
+}
+
+
+
+.box {
+   
+   
+}
+
+.box-header {
+   
+    margin: 15px 0 0px 0;
+    font-weight: bold;
+    font-size: 18px;
+    /* text-align: left; */
+}
+
+.second-row-header, .third-row-header {
+    /* position: relative;
+    top: 10px; */
+    margin-top: 40px;
+}
+
+
+
+.second-row {
+    background-color: white;
+    margin: 0px 15px;
+    height: 200px;
+    
+    
+}
+
+.second-row-columns {
+   
+    
+}
+
+.recommended-container {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+.recommended-products {
+   
+}
+
+
+.last-row {
+    justify-content: space-between;
+    margin: 0 15px;
+    flex-wrap: nowrap;
+   
+}
+
+
+.last-row-columns {
+    background-color: white;
+    height: 250px;
+    margin-top: 25px;
+}
+
+.video-col {
+    
+    width: 30%;
+}
+
+.misc-column {
+    width: 70%;
+}
+
+
+
+
+
+
+
+footer {
+    background-color:  #232F3E;
+    position: relative;
+    margin-top: -100px;
+}
+
+.footer-container {
+    color: #fff;
+    
+}
+
+.footer-row {
+    align-items: center;
+    
+    min-width: 1000px;
+    height: 350px;
+    
+}
+
+.footer-content-container {
+    justify-content: space-between;
+    width: auto;
+    margin: 0 auto;
+} 
+
+.footer-content-container h5 {
+    margin-bottom: 20px;
+}
+.footer-content-container p {
+    font-size: 15px;
+    color: #DDD;
+    
+} 
+
+.conditions-of-use {
+    background-color: #131A22;
+    color: #DDD;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
+    
+}
+
+
+
+
+@media screen and ( max-width: 1300px ) {
+    .main-columns {
+        width: 350px;
+       
+    }
+
+    .last-main-column{
+        display: none;
+    }
+
+    .second-row {
+        width: 97%; 
+    }
+}
+
+@media screen and ( max-width: 1100px ) {
+    .main-columns {
+        width: 300px;
+    }
+
+    .second-row {
+        width: 99%; 
+    }
+}
+
+@media screen and ( max-width: 1000px ) {
+    #nav-section {
+        width: 1000px;  
+    }
+
+    #changeSlide {
+        width: 1000px;  
+    }
+
+    .body-main {
+        margin: 0;
+        padding: 0;
+    }
+
+    .content-container {
+        width: 1000px;  
+    }
+
+    
+    .main-columns {
+        
+    }
+
+    .second-row {
+        width: 97%; 
+    }
+
+    footer {
+        width: 1000px;
+    }
+
+}
