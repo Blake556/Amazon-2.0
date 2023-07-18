@@ -233,8 +233,19 @@ a {
  
 }
 
-.recommended-products {
-   
+.section-head {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.third-rh-box {
+    margin-top: 10px;
+}
+
+.explore-item {
+    margin-top: 10px;
+    margin-right: 60px;
 }
 
 
@@ -250,6 +261,11 @@ a {
     background-color: white;
     height: 250px;
     margin-top: 25px;
+}
+
+.gift-card {
+    margin-top: 5px;
+    width: auto;
 }
 
 .video-col {

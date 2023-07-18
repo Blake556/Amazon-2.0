@@ -391,7 +391,9 @@ footer {
 }
 
 
-
+.delete:hover {
+    cursor: pointer; 
+  }
 
 
 

@@ -60,11 +60,11 @@ function addToCartButton(e) {
     let itemDescription = itemsContainer.querySelector('.item-description').innerText
     let itemPrice = itemsContainer.querySelector('.item-price').innerText
 
-    if(buttonClicked) {
-        console.log(e.disabled = true )
-        //buttonClicked.style.backgroundColor = 'green'
-        buttonClicked.e.disabled = true
-    }
+    // if(buttonClicked) {
+    //     console.log(e.disabled = true )
+    //     //buttonClicked.style.backgroundColor = 'green'
+    //     buttonClicked.e.disabled = true
+    // }
 
     // if( e.currentTarget > 1) {
     //     e.currentTarget.disabled = true;
